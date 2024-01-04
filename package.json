@@ -1,7 +1,7 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "akhil portfolio",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "akhil portfolio",
   "source": "src/index.html",
   "homepage": "https://{akhil0203}.github.io/{portfolio}",
   "scripts": {
