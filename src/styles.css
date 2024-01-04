@@ -47,10 +47,35 @@ section img.background {
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: .8;
   margin: 0;
+  white-space: nowrap;
+}
+/* Typing animation */
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 170% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+h1.typewriter {
+  width:170%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.05em; /* Adjust as needed */
+  animation: 
+    typing 1.0s steps(20, end),
+    blink-caret 0.75s step-end infinite;
 }
 
 h2 {
@@ -58,6 +83,7 @@ h2 {
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
+  white-space: nowrap;
 }
 
 h3 {
@@ -117,6 +143,13 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+}
+.boxhover {
+  transition: transform 0.3s ease-in-out; /* This makes the scale change animate smoothly */
+
+}
+.boxhover:hover {
+  transform: scale(1.05); /* This makes the box 5% larger when it's hovered over */
 }
 
 img.socialIcon {
