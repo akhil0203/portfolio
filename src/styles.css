@@ -156,3 +156,39 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+@media screen and (max-width: 1024px) {
+  h1.typewriter {
+    font-size: 2rem; /* Adjust as needed */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+
+  h3 {
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+
+  p {
+    font-size: 16px; /* Adjust as needed */
+  }
+}
+
+/* Responsive styles for phone */
+@media screen and (max-width: 480px) {
+  h1.typewriter {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+
+  h2 {
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+
+  h3 {
+    font-size: 1rem; /* Adjust as needed */
+  }
+
+  p {
+    font-size: 14px; /* Adjust as needed */
+  }
+}
