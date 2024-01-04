@@ -1,7 +1,7 @@
 {
-  "name": "akhil portfolio",
+  "name": "akhilportfolio",
   "version": "1.0.0",
-  "description": "akhil portfolio",
+  "description": "akhilportfolio",
   "source": "src/index.html",
   "homepage": "https://{akhil0203}.github.io/{portfolio}",
   "scripts": {
